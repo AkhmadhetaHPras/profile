@@ -96,8 +96,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
-              padding: EdgeInsets.all(12),
-              child: Positioned(
+              padding: const EdgeInsets.all(12),
+              child: const Positioned(
                   child: CircleAvatar(
                 radius: 50,
                 backgroundColor: Colors.white,
@@ -108,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               padding: const EdgeInsets.fromLTRB(0, 0, 0, 20),
               child: Column(
-                children: [
+                children: const [
                   Text(
                     'Akhmadheta Hafid Prasetyawan',
                     style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18),
